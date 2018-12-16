@@ -3,13 +3,12 @@
  */
 import Vue from 'vue'
 import App from './App.vue'
-import route from './router'
+import './base.css';
 // eslint-disable no-new
 new Vue({
   el: '#app',
   components: {
     App
   },
-  template: '<App/>',
-  router:route,
+  template: '<App/>'
 })
